@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: OMSARKAR
+  host: OMSARKAR
+  disk_quota: 1024M
+  services:
+  - OMSARKAR-personality_insights
+  - availability-monitoring-auto
+  - Mobile Client Access-iz1jc595
